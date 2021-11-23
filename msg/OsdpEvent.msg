@@ -1,0 +1,5 @@
+uint8 osdp_event_type
+#osdp_event_keypress keypress
+OsdpEventCardRead cardread
+#osdp_event_mfgrep mfgrep
+#osdp_event_file_tx file_tx

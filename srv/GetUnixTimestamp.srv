@@ -1,0 +1,6 @@
+# Get Unix Timestamp. No parameter is given through the Request.
+---
+uint32  timestamp   # Number of seconds since 01/01/1970
+int8    status      # Return code of the operation. 0 if success, error code otherwise
+string  message     # Optional. Response message from the node
+
