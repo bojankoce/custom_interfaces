@@ -31,6 +31,9 @@ rosidl_generate_interfaces(${PROJECT_NAME}
   "srv/AdjustTime.srv"
  )
 
+#install(DIRECTORY include/${PROJECT_NAME}/
+#  DESTINATION include/${PROJECT_NAME}
+#)
 
 if(BUILD_TESTING)
   find_package(ament_lint_auto REQUIRED)
